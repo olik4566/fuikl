@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,700;1,400;1,700&display=swap');
+
+body{
+    font-family:Roboto Condensed;
+}
+.header h1{
+   font-family:Roboto Condensed;
+   font-weight: 900;
+   margin: o;
+}
+.header .menu a, .header .lock a{
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+color:black ;
+}
+.header .menu a:hover{
+    font-weight: 600;
+    color: brown;
+}
+.header a.login{
+    color: burlywood;
+    font-weight: 600;
+}
+.header a.register{
+    background: blanchedalmond;
+    color: brown;
+    border-radius: 5px;
+    transition: 0.5s;
+    font-weight: 600;
+}
+.header a.register:hover{
+    background: rgb(26, 16, 3)
+}
+.hero{
+    padding: 5% 0;
+}
+.hero-content h2{
+   font-family: 'Roboto Condensed', sans-serif; 
+    font: size 100px;;
+}
+.hero-content p{
+    font-size:22px; ;
+    line-height: 30px;
+    font-weight: 300;
+}
